@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="03-Band-Form.css">
+
+
+</head>
+
+<body>
+
+    <form id="rockBandForm">
+
+        <label for="fullName" class="sizeName">Nombre Completo</label> <br>
+        <input type="text" id="cajita" name="fullName">
+       
+        <br>
+    
+        <label for="Age" id="ageSize">Edad</label> <br>
+        <input 
+        type="number" 
+        name="age" 
+        id="cajita" 
+        min="18" 
+        max="125">
+    
+        <br>
+    
+        <label for="favouriteBand">Menciona tus 5 bandas favoritas:</label> <br>
+        <textarea name="message" id="cajita" cols="30" rows="5" placeholder="The more I see, the less I know..."></textarea>
+    
+        <br>
+    
+        <label for="genere">Escoge tu género favorito</label> <br>
+        <select name="generes" id="desplegable">
+            <option value="rock">Rock</option>
+            <option value="techno">Techno</option>
+            <option value="hip-hop">Hip Hop</option>
+        </select>
+        
+        <br>
+        
+        <label for="newsletter" id="italic">Quieres recibir noticias de nuestras novedades?</label>
+        <input id="" type="checkbox">Sí
+
+        <br>
+
+        <input type="submit" value="Submit" id="button"/>
+    
+    </form>
+</body>
+</html>

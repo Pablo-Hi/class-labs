@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@100&display=swap');
+
+* {
+    font-family:'Sofia Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(25, 33, 41);
+    line-height: 2;
+}
+
+ #rockBandForm {
+    background-color: salmon;
+}
+    
+ .sizeName {
+    font-size: 24px;
+}
+        
+#ageSize{
+    font-size: 24px;
+}
+
+#rockBandForm {
+    background: rgb(25, 33, 41);
+    border: 2px rgb(67, 163, 230) solid;
+    margin: 100px 500px;
+    width: 250px;
+    padding: 10px;
+
+}
+
+#cajita {
+    border: 2px rgb(67, 163, 230) solid;
+    background: white;
+    width: 230px;
+}
+
+#button {
+    background: rgb(67, 163, 230);
+    border-radius: 12px;
+    border-color: white;
+}
+
+#desplegable {
+    background: rgb(67, 163, 230);
+}
+
+#italic {
+    font-style: italic;
+}

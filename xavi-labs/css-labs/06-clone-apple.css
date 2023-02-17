@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@300&display=swap');
+
+body{
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+} 
+
+.contenedor{
+    background-image:url(./06-clon-apple/apple-pie.jpg);
+    background-size: cover;
+    color: white;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firsttext{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.img1{
+    text-align: center;
+}
+
+.img2{
+    text-align: center;
+}
+
+.paracentrar{
+   padding: 10px 200px 30px 200px;
+}
+
+ol {
+    list-style: none;
+  }
+  ol > li {
+    counter-increment: listcounter;
+  }
+  ol > li::before {
+    content: counter(listcounter) ")";
+    padding-right: 5px;
+  }
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '-';
+    padding-right: 5px;
+}

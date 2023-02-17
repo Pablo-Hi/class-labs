@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="08-flexbox1.css">
+</head>
+<body>
+    <div class="container">
+        <img class="bataleon" src="data:image/png;base64,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" alt="bataleon logo">
+        <img class="dc" src="https://1000marcas.net/wp-content/uploads/2020/03/DC-Shoes-logotipo.jpg" alt="dc logo">
+        <img class="k2" src="https://www.lafabricadebordados.es/3013-thickbox_default/parche-bordado-logo-k2.jpg" alt="k2 logo">
+        <img class="burton" src="https://www.lafabricadebordados.es/2679-thickbox_default/parche-bordado-logo-burton.jpg" alt="burton logo">
+    
+        <div class="names">
+            <p class="didac">Didac</p>
+            <p class="sebas">Sebas</p>
+            <p class="pol">Pol</p>
+        </div>
+    </div> 
+</body>
+</html>

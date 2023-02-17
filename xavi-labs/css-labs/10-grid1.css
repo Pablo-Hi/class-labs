@@ -1,0 +1,16 @@
+.section{
+    display: grid;
+    grid-template-rows: 1fr 6fr 1fr;;
+    height: 90vh;
+}
+
+.div1{
+    background-color: salmon;
+}
+.div2{
+    background-color:aqua;
+}
+
+.div3{
+    background-color: forestgreen;
+}

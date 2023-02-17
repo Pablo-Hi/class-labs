@@ -1,0 +1,41 @@
+.container1{
+    position: fixed;   
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+
+.container2{
+    position: relative;
+    width: 650px;
+    height: 650px;
+    background: aquamarine;
+    }
+
+.moto{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.s{
+    top: 0px;
+    right: 0px;
+}
+
+.h{
+    top: 0px;
+    left: 0px;
+}
+
+.ho{
+    bottom: 0px;
+    left: 0px;
+}
+
+.d{
+    bottom: 0px;
+    right: 0pt;
+}
+
+
